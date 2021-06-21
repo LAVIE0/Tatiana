@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lavie</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Titillium+Web:wght@700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Titillium+Web:wght@700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Titillium+Web:wght@300&display=swap" rel="stylesheet"> 
+</head>
+<body>
+    <header id="header">
+        <div>
+            <a href="index.html"><img src="img/logo.svg" alt="Logo LiVie"></a>
+        </div>
+        <div id="lista-header">
+            <ul>
+                <a href=""><li>MAG Seguros</li></a>
+                <a href=""><li>WinSocial</li></a>
+               <a href=""><li><img src="img/Asset 11.svg" alt="Usuário"></li></a>
+            </ul>
+        </div>
+    </header>
+    <section id="intro">
+        <h1>Madrinhas </h1>
+        <p>Confira abaixo os perfis de madrinhas em comum com você.</p>
+    </section>
+    <section id="cards">
+        <div class="texto-card" >
+            <h2>Marinete</h2>
+            <p>Olá! Me chamo Marinete, ficaria muito feliz em contar sobre a minha superação. Sou uma mulher casada, com 2 filhos (casal). Fui diagnosticada com câncer de mama há 6 anos, e há 4 anos estou curada. Desde então, eu vivo minha vida alegremente. Eu amo viajar! Se quiser criar laços...</p>
+            <h3>Em comum com você</h3>
+            <ul>
+                <li>Casada</li>
+                <li>Dois filhos</li>
+                <li>Protestante</li>
+            </ul>
+            <hr>
+            <div class="informacoes">
+                <div class="info">
+                    <img src="img/Image.svg" alt="Marinete">
+                    <ul>
+                        <li>Rio de Janeiro</li>
+                        <li>47 anos</li>
+                    </ul>
+                </div>
+                <a href="#">Veja mais</a>
+            </div>
+        </div>
+       
+        <div class="texto-card" >
+            <h2>Dolores</h2>
+            <p>Olá, tudo bem? Há 10 anos atrás fui diagnosticada com câncer de mama e eu venci, Graças a Deus! Depois de passar pelo primeiro tratamento, tudo na minha vida mudou, pra melhor claro. Sinta-se bem-vinda pra falar comigo a qualquer hora. Eu amo viajar! Se quiser criar laços..</p>
+            <h3>Em comum com você</h3>
+            <ul>
+                <li>Dupla mastectomia</li>
+                <li>Um filho </li>
+                <li>Solteira</li>
+            </ul>
+            <hr>
+            <div class="informacoes">
+                <div class="info">
+                    <img src="img/Image1.svg" alt="Marinete">
+                    <ul>
+                        <li>São Paulo</li>
+                        <li>52 anos</li>
+                    </ul>
+                </div>
+                <a href="#">Veja mais</a>
+            </div>
+        </div>  
+
+        <div class="texto-card" >
+            <h2>Sofia</h2>
+            <p>Fui diagnosticada aos 40 anos com o tipo Triplo Negativo. Me voltei para a fé para enfrentar a batalha. Tive recidiva no pulmão dois anos depois mas já estou em processo de remissão, graças a deus. Hoje vivo na luta para conseguir a cura completa.</p>
+            <h3>Em comum com você</h3>
+            <ul>
+                <li>Casada</li>
+                <li>Sem filhos</li>
+                <li>Cristã</li>
+            </ul>
+            <hr>
+            <div class="informacoes">
+                <div class="info">
+                    <img src="img/Image2.svg" alt="Marinete">
+                    <ul>
+                        <li>Espiríto Santo</li>
+                        <li>45 anos</li>
+                    </ul>
+                </div>
+                <a href="#">Veja mais</a>
+            </div>
+        </div>
+    </section>
+    <div class="modal-overlay">
+        <div class="modal">
+            <div class="exit">
+                <img src="img/Icon.svg" alt="Sair" onclick="sairModal()">
+             </div>
+            <div class="info modal-ul">
+                <img src="img/Image.svg" alt="Marinete">
+                <ul>
+                    <li>Marinete</li>
+                    <li>47 anos</li>
+                </ul>
+             </div>
+             
+             <div class="modal-info">
+                 <p>Olá! Me chamo Marinete, ficaria muito feliz em contar sobre a minha superação. Sou uma mulher casada, com 2 filhos (casal). Fui diagnosticada com câncer de mama há 6 anos, e há 4 anos estou curada. Desde então, eu vivo minha vida alegremente. Eu amo viajar! Se quiser criar laços comigo, eu ficarei muito feliz em acolher você. </p>
+                 <h3>Em comum com você</h3>
+                 <ul>
+                     <li>Casada</li>
+                     <li>Dois filhos</li>
+                     <li>Protestante</li>
+                 </ul>
+             </div>
+             <div class="btn">
+                <a href="Marinete.html">Criar Laços </a>
+                <img src="img/laço_1.svg" alt="">
+             </div>
+        </div>
+    </div>
+    <div class="modal-overlay2">
+        <div class="modal">
+            <div class="exit">
+                <img src="img/Icon.svg" alt="Sair" onclick="sairModal()">
+             </div>
+            <div class="info modal-ul">
+                <img src="img/Image2.svg" alt="Marinete">
+                <ul>
+                    <li>Sofia</li>
+                    <li>45 anos</li>
+                </ul>
+             </div>
+             
+             <div class="modal-info">
+                 <p>Fui diagnosticada aos 40 anos com o tipo Triplo Negativo. Me voltei para a fé para enfrentar a batalha. Tive recidiva no pulmão dois anos depois mas já estou em processo de remissão, graças a deus. Hoje vivo na luta para conseguir a cura completa.
+                </p>
+                 <h3>Em comum com você</h3>
+                 <ul>
+                    <li>Casada</li>
+                    <li>Sem filhos </li>
+                    <li>Cristã</li>
+                 </ul>
+             </div>
+             <div class="btn">
+                <a href="sofia.html">Criar Laços </a>
+                <img src="img/laço_1.svg" alt="">
+             </div>
+        </div>
+    </div>
+    <div class="modal-overlay1">
+        <div class="modal">
+            <div class="exit">
+                <img src="img/Icon.svg" alt="Sair" onclick="sairModal()">
+             </div>
+            <div class="info modal-ul">
+                <img src="img/Image1.svg" alt="Marinete">
+                <ul>
+                    <li>Dolores</li>
+                    <li>52 anos</li>
+                </ul>
+             </div>
+             
+             <div class="modal-info">
+                 <p>Olá, tudo bem? Há 10 anos atrás fui diagnosticada com câncer de mama e eu venci, Graças a Deus! Depois de passar pelo primeiro tratamento, tudo na minha vida mudou, pra melhor claro. Sinta-se bem-vinda pra falar comigo a qualquer hora. Eu amo viajar! Se quiser criar laços..
+                </p>
+                 <h3>Em comum com você</h3>
+                 <ul>
+                    <li>Dupla mastectomia</li>
+                    <li>Um filho </li>
+                    <li>Solteira</li>
+                 </ul>
+             </div>
+             <div class="btn">
+                <a href="dolores.html">Criar Laços </a>
+                <img src="img/laço_1.svg" alt="Imagem laço">
+             </div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+    <br><br><br><br><br>
+</body>
+
+</html>

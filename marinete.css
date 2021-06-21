@@ -1,0 +1,29 @@
+/* MARINETE =================== */
+body {
+  max-width: 1120px;
+  margin: 0 auto;
+}
+#container {
+  display: flex;
+}
+.texto-card hr {
+  width: 720px;
+  margin: 10px auto;
+}
+.madrinha {
+  font-size: 4em;
+  margin: 20px 0 20px 20px;
+  font-family: Pacifico;
+}
+
+#imagens img {
+  margin: 20px 25px;
+}
+@media (max-width: 720px) {
+  #container {
+    flex-wrap: wrap;
+  }
+  .texto-card hr {
+    width: 390px;
+  }
+}
